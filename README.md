@@ -25,7 +25,7 @@ option-pricing-black-scholes/
 
 ## Example usage
 
-from src.bs_pricer import black_scholes_price, black_scholes_greeks
+```from src.bs_pricer import black_scholes_price, black_scholes_greeks
 
 S, K, T, r, sigma = 100, 100, 1.0, 0.02, 0.2
 
@@ -33,4 +33,4 @@ call_price = black_scholes_price(S, K, T, r, sigma, "call")
 greeks = black_scholes_greeks(S, K, T, r, sigma, "call")
 
 print("Call price:", call_price)
-print("Greeks:", greeks)
+print("Greeks:", greeks)```
